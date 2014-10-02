@@ -1,7 +1,7 @@
 {
   "name": "angular-social",
-  "version": "0.1.0",
-  "main": "angular-social.js",
+  "version": "0.1.0.1",
+  "main": ["angular-social.js","angular-social.css"],
   "ignore": [
   ],
   "dependencies": {
