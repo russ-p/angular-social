@@ -30,11 +30,9 @@ app.directive('ngSocialTwitter', function() {
         replace: true,
         transclude: true,
         template: '<li> \
-                    <a ng-href="{{ctrl.link(options)}}" target="_blank" ng-click="ctrl.clickShare($event, options)" class="ng-social-button"> \
-                        <span class="ng-social-icon"></span> \
-                        <span class="ng-social-text" ng-transclude></span> \
+                    <a ng-href="{{ctrl.link(options)}}" target="_blank" ng-click="ctrl.clickShare($event, options)" class="icon-button twitter"> \
+                        <i class="fa fa-twitter"></i><span></span> \
                     </a> \
-                    <span ng-show="count" class="ng-social-counter">{{ count }}</span> \
                    </li>',
         controller: function($scope) {
         },
